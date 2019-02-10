@@ -10,7 +10,7 @@ import javax.sql.DataSource;
 
 //way of creating a spring java configuration for beans
 @Configuration
-@Import(InfrastructureConfiguration.class) //-- to import java configuration
+//@Import(InfrastructureConfiguration.class) //-- to import java configuration
 //@ImportResource -- to import xml configuration file.
 @ComponentScan(basePackages = "com.nitish")
 public class ApplicationConfiguration {
